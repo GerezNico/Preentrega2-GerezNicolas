@@ -1,0 +1,158 @@
+body {
+    background-color: black;
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+}
+
+h1 p {
+    color: white;
+}
+
+footer {
+    background-color: white;
+    color: black;
+}
+
+.navbar-toggler {
+    background-color: white;
+    border: solid grey;
+    
+}
+
+.nav-link{
+    color: white;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgba(177, 180, 179, 0.459);
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: #808080;
+}
+
+/*INDEX*/
+
+
+
+.carrusel-padre{
+    display: grid;
+    justify-content: center;
+    
+}
+
+#carouselExampleFade {
+    width: 800px;
+}
+
+.carousel-item img {
+    height: 500px;
+}
+
+.horarios {
+    background-color: white;
+    color: black;
+}
+
+.redes img{
+    width: 5rem;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    color: black;
+}
+
+/*Tablets*/
+
+@media (min-width: 768px) {
+    .redes {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+}
+
+
+/*Desktop*/
+@media (min-width: 992px) {
+    .redes {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+    }
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.form__letra {
+    color: #ffffff;
+    border: solid white;
+    width: 15rem;
+
+}
+
+.contacto__section {
+    margin: 5rem 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.submit {
+    color: white;
+    background-color: #000000;
+    border: solid white;
+}
+
+.textarea {
+    margin-top: 1rem;
+    width: 50rem;
+}
+
+.hover-redes:hover {
+    transform: scale(1.2);
+}
+
+/*TIENDA TODO*/
+
+.padre-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    color: black;
+}
+
+/*Tablets*/
+
+@media (min-width: 768px) {
+    .padre-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+}
+
+
+/*Desktop*/
+@media (min-width: 992px) {
+    .padre-cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+    }
+}
+
+
+/*footer*/
+
